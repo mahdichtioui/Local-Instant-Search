@@ -128,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
                 lst.add(mood);
             }
         }
-
         adapter.filter(lst);
     }
 
