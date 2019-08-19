@@ -42,11 +42,11 @@ dependencies {
 
 ```
 ## Reactive Programming
-if you're new to reactive programming or you want to know more, then check this article that i wrote on this subject:
+if you're new to reactive programming or you want to know more, then check this article that i wrote on this subject that we introduce and wrap up everything you need to know about reactive programming using Rx:
 
 [Link to the article](https://www.linkedin.com/pulse/reactivex-reactive-programming-principles-mahdi-chtioui/?trackingId=%2F8XzEJB0R%2BiQOPhR%2BU1nrw%3D%3D)
 
-if you're not, well, let's keep moving forward
+Let's keep moving forward
 
 ### RxBinding
 
@@ -71,11 +71,15 @@ disposable.add(RxTextView.textChangeEvents(inputSearch)
 
 The operators of Rx used in this example: 
 
-- debounce: delay time between emits.
-- distinctUntilChanged: avoid repeating the same request twice in a row.
+- ***debounce***: delay time between emits.
+- ****distinctUntilChanged***: avoid repeating the same request twice in a row.
 
 These operators will handle threading for us by specifying which schedulers will handles which task:
 
-- subscribeOn: specify the scheduler that our obervables will operates on.
-- observeOn: specify the scheduler on which we will oberve this observable.
+- ***subscribeOn***: specify the scheduler that our obervables will operates on.
+- ****observeOn***: specify the scheduler on which we will oberve this observable.
+
+The event used to listen to our Search EditTextView provided by *RxBinding* library
+- ***RxTextView.textChangeEvents(someText)***: triggers an event to listen to any change to the text inside of the EditTextView
+
 
