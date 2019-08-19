@@ -7,7 +7,7 @@ we will use RxBinding library for binding our search with our RecyclerView by ma
 
 Don't forget to add Java 8 to your gradle file
 
-```android
+```java
 android {
     compileSdkVersion 28
     defaultConfig {
