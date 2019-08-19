@@ -50,7 +50,7 @@ Let's keep moving forward
 
 ### RxBinding
 
-***RxBinding*** is library for RxJava that handles UI events (Click, Swipe…) and bind them using data streams. IT basically UI interactions with simplified code. Specially when you have multiple event handling, the logic can be greatly simplified. Instead of using the combination of *listeners*, *handlers* and *AsyncTasks*, you can just impelements ***RxJava*** and ***RxBinding***. You don't have to worry about *threading* problems and *memory leaks* by using *Schedulers* from the ***RxAndroid*** library.
+***RxBinding*** is library for RxJava that handles UI events (Click, Swipe…) and bind them using data streams. IT's basically UI interactions with simplified code. Specially when you have multiple event handling, the logic can be greatly simplified. Instead of using the combination of *listeners*, *handlers* and *AsyncTasks*, you can just impelements ***RxJava*** and ***RxBinding***. You also don't have to worry about *threading* problems and *memory leaks* since we're using *Schedulers* from the ***RxAndroid*** library.
 
 ### Example Of Using RxBinding (Example used in the demo)
 For more details, just go to the MainActivity of this repository
