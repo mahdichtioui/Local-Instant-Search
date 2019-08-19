@@ -56,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_mood_white);
         toolbar.setTitleTextColor(Color.WHITE);
-        getSupportActionBar().setTitle("Moody Guess");
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle("Moody Guess");
+        }
 
         dataManager = new MoodDataManager();
 
@@ -128,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 lst.add(mood);
             }
         }
+
         adapter.filter(lst);
     }
 
