@@ -125,12 +125,10 @@ public class MainActivity extends AppCompatActivity {
 
         for (Mood mood : lstMoods){
             String sentiment = mood.getSentiment();
-
             if(sentiment.toLowerCase().contains(inputText)){
                 lst.add(mood);
             }
         }
-
         adapter.filter(lst);
     }
 
