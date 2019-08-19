@@ -72,12 +72,12 @@ disposable.add(RxTextView.textChangeEvents(inputSearch)
 The operators of Rx used in this example: 
 
 - ***debounce***: delay time between emits.
-- ****distinctUntilChanged***: avoid repeating the same request twice in a row.
+- ***distinctUntilChanged***: avoid repeating the same request twice in a row.
 
 These operators will handle threading for us by specifying which schedulers will handles which task:
 
 - ***subscribeOn***: specify the scheduler that our obervables will operates on.
-- ****observeOn***: specify the scheduler on which we will oberve this observable.
+- ***observeOn***: specify the scheduler on which we will oberve this observable.
 
 The event used to listen to our Search EditTextView provided by *RxBinding* library
 - ***RxTextView.textChangeEvents(someText)***: triggers an event to listen to any change to the text inside of the EditTextView
