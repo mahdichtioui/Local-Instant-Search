@@ -41,8 +41,22 @@ dependencies {
 }
 
 ```
+## Libraries used
+- ***ButterKnife***:
+A library for binding any View (TextView, EditTextView, Button, RecyclerView…), Resource (Color, Drawable, String…) with the activity.
+For more details on how to use ButterKnife check this [blog post](https://www.androidhive.info/2017/10/android-working-with-butterknife-viewbinding-library/).
+
+- ***RxJava***:
+Reactive eXtension library for implementing reactive programming for java.
+
+- ***RxAndroid***:
+Library for working with Schedulers of Reactive eXtension (Rx).
+
+- ***RxBinding***:
+check the introduction below.
+
 ## Reactive Programming
-if you're new to reactive programming or you want to know more, then check this article that i wrote on this subject that we introduce and wrap up everything you need to know about reactive programming using Rx:
+if you're new to reactive programming or you want to know more, then check this article that i wrote on this subject that introduce and wrap up everything you need to know about reactive programming principles and core concepts and components:
 
 [Link to the article](https://www.linkedin.com/pulse/reactivex-reactive-programming-principles-mahdi-chtioui/?trackingId=%2F8XzEJB0R%2BiQOPhR%2BU1nrw%3D%3D)
 
